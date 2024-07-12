@@ -1,0 +1,45 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+
+nav .btn
+{
+    background-color: transparent;
+}
+nav li:first-of-type,  .main button:first-of-type{
+    border-radius: 28px;
+    color: white;
+    background-color: #008159;
+}
+nav ul img ,nav form img{
+    height: 17px;
+  }
+  
+
+.card
+{
+    padding: 15px;
+    border-radius: 20px;
+}
+.card .btn
+{
+    border-radius: 28px;
+}
+.card {
+    border-radius: 20px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+    0 6px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .card .card-img-top {
+    border-radius: 20px; 
+  }
+  
+
+  .card p{
+    font-weight: 600;
+  }
